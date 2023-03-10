@@ -1,0 +1,17 @@
+{
+  "name": "graphql_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd server & npm run watch\" \"cd client && npm start\"",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
